@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 let root
 function render(props) {
   const { container } = props
-  root = ReactDOM.createRoot(container ? container.querySelecttor('#root') : document.getElementById('root'));
+  root = ReactDOM.createRoot(container ? container.querySelector('#root') : document.getElementById('root'));
   root.render(
     <React.StrictMode>
       <App />

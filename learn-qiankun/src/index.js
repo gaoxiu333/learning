@@ -24,22 +24,22 @@ function registerMicroFactory() {
   registerMicroApps([
     {
       name: 'Micro React',
-      entry: 'http://localhost:5173/',
+      entry: 'http://localhost:3000/',
       container: '#reactContainer',
       activeRule: '/react'
     },
-    {
-      name: 'vue app',
-      entry: '//localhost:7000',
-      container: '#vueContainer',
-      activeRule: '/vue'
-    },
-    {
-      name: 'normal app',
-      entry: '//localhost:7000',
-      container: '#normalContainer',
-      activeRule: '/normal'
-    }
+    // {
+    //   name: 'vue app',
+    //   entry: '//localhost:7000',
+    //   container: '#vueContainer',
+    //   activeRule: '/vue'
+    // },
+    // {
+    //   name: 'normal app',
+    //   entry: '//localhost:7000',
+    //   container: '#normalContainer',
+    //   activeRule: '/normal'
+    // }
   ])
   start()
 }
