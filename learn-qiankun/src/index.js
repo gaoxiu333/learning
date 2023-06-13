@@ -24,7 +24,7 @@ function registerMicroFactory() {
   registerMicroApps([
     {
       name: 'Micro React',
-      entry: 'http://localhost:3000/',
+      entry: 'http://localhost:7788/',
       container: '#reactContainer',
       activeRule: '/react'
     },
